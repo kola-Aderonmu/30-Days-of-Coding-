@@ -13,11 +13,63 @@
             <label for="birthday">Enter your date of birth</label>
             <input type="date" id="birthday" name="birthday">
             <button id="btn">Calculate Age</button>
-            <p id="result"> YOur Age is {} Years Old </p>
+            <p id="result">You are ... Years Old </p>
         </div>
 
+<!-- -------------Second section----------- -->
+
+<section class="boxes">
+<div class="card">
+  <div class="card-inner">
+    <div class="card-face front">
+      <div class="clock" id="clock">Clock</div>
+    </div>
+    <div class="card-face back">
+      Time At the Moment
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-inner">
+    <div class="card-face front">
+      <div class="weather" id="weather">Weather</div>
+    </div>
+    <div class="card-face back">
+      Today's Weather
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-inner">
+    <div class="card-face front">
+      <div class="temperature" id="temperature">Temperature</div>
+    </div>
+    <div class="card-face back">
+     Today's Temperature
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-inner">
+    <div class="card-face front">
+      <div class="temperature" id="temperature">Search...</div>
+    </div>
+    <div class="card-face back">
+     <form action="https://www.google.com/search?q=">
+        <input type="text" name="q" placeholder="Search..." required>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</div>
 
     </div>
+  </div>
+</div>
+</section>
     <script src="index.js"></script>
 </body>
 </html>
